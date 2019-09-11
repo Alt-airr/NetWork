@@ -1,0 +1,27 @@
+
+.app-wrapper {
+  background-color: lightgray;
+
+}
+
+.app-wrapper_page {
+  display: grid;
+  width: 1000px;
+  margin: 0 auto;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+          "nav cnt";
+}
+
+
+.app-wrapper_content {grid-area: cnt;
+  padding: 5px;
+  background-color: #c8e4e6}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+

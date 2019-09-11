@@ -1,0 +1,43 @@
+.profile {
+    color: #042624;
+    grid-area: cnt;
+}
+
+.descriptionBlock {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-areas: "ava discr";
+    background-color: #beddd8;
+}
+
+.ava {
+    grid-area: ava;
+    width: 200px;
+    border-radius: 3px;
+    border: 3px solid white;
+    margin: 5px;
+    -webkit-box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.56);
+    box-shadow: 5px 5px 2px -2px rgba(0, 0, 0, 0.56);
+}
+
+.description {
+    grid-area: discr;
+
+
+}
+
+.description p {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.description span {
+    text-transform: none;
+    font-weight: 400
+}
+
+.descriptionItem {
+    border-bottom: 1px solid #042624;
+    width: 400px;
+}

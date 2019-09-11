@@ -1,0 +1,35 @@
+
+
+.Post {
+    background-color: #ebf7f2;
+    margin: 5px 0 0 40px;
+    border-radius: 5px;
+    width: 700px;
+    padding: 10px;;
+    color: #14555b}
+
+.Post img {
+    width: 35px;
+    margin: 5px;
+
+}
+
+.postMessage {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 500;
+    margin-left: 25px;
+    font-size: 18px}
+
+.likeBar {
+    border: 1px solid #65b5b5;
+    color: #14555b;
+    background-color: #9edbcf;
+    font-weight: 500;
+    float: right;
+    width: 100px;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.likeBar span {}
