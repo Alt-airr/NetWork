@@ -6,7 +6,9 @@ const ProfileInfo = () => {
     <div className={s.profile}>
 
       <div className={s.descriptionBlock}>
-        <img className={s.ava} src="https://vignette.wikia.nocookie.net/villains/images/7/7b/Tylerbetterpicture.jpg/revision/latest?cb=20170410170911" alt=""/>
+        <img className={s.ava}
+             src="https://vignette.wikia.nocookie.net/villains/images/7/7b/Tylerbetterpicture.jpg/revision/latest?cb=20170410170911"
+             alt=""/>
         <div className={s.description}>
           <h1>Bred Pitt</h1>
           <div className={s.descriptionItem}>

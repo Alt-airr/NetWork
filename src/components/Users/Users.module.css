@@ -1,0 +1,43 @@
+
+
+.userItem {
+    background-color: #65b5b5;
+    margin: 20px;
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;;
+    color: #14555b}
+
+.userItem img {
+    width: 70px;
+    margin: 5px;
+
+}
+
+
+.followButton {
+    background-color: #14555B;
+    color: gainsboro;
+    width: 130px;
+    height: 45px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: monospace;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 3px ;
+    border-bottom: 4px solid #042624;
+    align-self: center;
+}
+.followButton:hover {
+    background-color: #329c7d;
+}
+
+.followButton:active {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+}
+
