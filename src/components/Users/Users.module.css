@@ -8,11 +8,7 @@
     padding: 10px;;
     color: #14555b}
 
-.userItem img {
-    width: 70px;
-    margin: 5px;
 
-}
 
 
 .followButton {
@@ -41,3 +37,29 @@
     transform: scale(0.98);
 }
 
+.userPhoto {
+    width: 100px;
+    height: 100px;
+}
+
+.pages{
+    margin: 5px;
+    width: 730px;
+    overflow: hidden}
+
+.pageNumber {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    }
+
+.pageNumber:hover {
+    background-color: #329c7d;
+}
+
+.selectedPage {
+    color: white;
+    background-color: #14555b;
+    margin: 5px;
+}
